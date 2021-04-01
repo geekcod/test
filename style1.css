@@ -1,0 +1,59 @@
+html,body
+{
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container
+{
+	text-align:center;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+	align-items:center;
+	padding:200px;
+	position:center;
+}
+.animate__animated.animate__flip
+ {
+  --animate-duration: 2s;
+}
+
+header h1
+{
+	text-transform: uppercase;
+	color:white;
+	font-size: 220%;
+}
+section hr
+{
+	background-color:#FF6400;
+	width:20%;
+	padding:2px;
+}
+
+.btn
+{
+	border-radius: 30px;
+	border-color: #FF6400;
+}
+.btn-warning
+{
+	background-color: #FF6400;
+	text-transform: uppercase;
+	color:white;
+}
+.btn-xl
+{
+	padding: 20px,8px;
+}
+.btn:hover
+{
+	padding: 12px;
+	border-color:#FF6400;
+	color:white;
+	background-color:#FF6400;
+}
